@@ -51,6 +51,28 @@ function hidemenubyli() {
   document.getElementById("burger-bar2").classList.remove("hamburger-animation2");
   document.getElementById("burger-bar3").classList.remove("hamburger-animation3");
 }
+// Add an event listener to the modal's "show.bs.modal" event
+document.addEventListener('DOMContentLoaded', function() {
+  // Get all modal elements
+  var modals = document.querySelectorAll('.modal');
+
+  // Iterate over each modal
+  modals.forEach(function(modal) {
+    // Add an event listener to the modal's "show.bs.modal" event
+    modal.addEventListener('show.bs.modal', function() {
+      // Hide the hamburger button
+      document.getElementById("hamburger").style.display = "none";
+    });
+
+    // Add an event listener to the modal's "hidden.bs.modal" event
+    modal.addEventListener('hidden.bs.modal', function() {
+      // Show the hamburger button
+      document.getElementById("hamburger").style.display = "flex";
+    });
+  });
+});
+
+
 
 const sections = document.querySelectorAll('section');
 const navLi = document.querySelectorAll('.navbar .navbar-tabs .navbar-tabs-ul li');
