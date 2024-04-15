@@ -178,7 +178,7 @@ body,.modal-body,.modal-footer,.modal-header, .modal-content{
     position: relative;
     width: 40px;
     height: 40px;
-    background-image: url(src/png/crescent-moon\ \(1\).png);
+    background-image: url(src/png/utils/cresent.png);
     background-size:50%;
     background-repeat: no-repeat;
     background-position: center;
@@ -192,7 +192,7 @@ body,.modal-body,.modal-footer,.modal-header, .modal-content{
 #switchforvisualmode:checked+#labelforvisualmode { 
     transform: rotate(360deg);
     transition-duration: .5s;
-    background-image: url(src/png/sun.png);
+    background-image: url(src/png/utils/sun.png);
     background-size:60%;
     background-repeat: no-repeat;
     background-position: center;
