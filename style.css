@@ -1933,7 +1933,7 @@ transition-duration: 1s;
   margin-right: auto;
   padding: 20px;
 
-  font-size: 12px;
+  font-size: 15px;
 }
   }
   .item-intro {
@@ -1941,4 +1941,7 @@ transition-duration: 1s;
   }
 .modal-img{
     width: 100%;
+}
+.project-image{
+    width: 40%;
 }
