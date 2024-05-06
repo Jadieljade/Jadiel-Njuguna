@@ -1866,6 +1866,12 @@ transition-duration: 1s;
 .project-boxes-div{
     padding: 40px 0;
 }
+.blog-section-div{
+    width: 80%;
+}
+.blog-boxes-div{
+    padding: 40px 0;
+}
   }
   
   @media screen and (max-width:500px) {
@@ -1907,6 +1913,7 @@ transition-duration: 1s;
         height: 550px;
 
     }
+    
     .info-div{
         height: 60%;
     }
@@ -1939,6 +1946,9 @@ transition-duration: 1s;
     }
     .info-div{
         padding: 0 30px;
+    }
+    .blog-div{
+        padding: 0 5px;
     }
     .two-words article{
         font-size: 2.2rem;
