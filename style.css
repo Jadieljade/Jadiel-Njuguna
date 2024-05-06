@@ -1355,7 +1355,7 @@ noscript{
 }
 
 .blog-card {
-    background-image: linear-gradient(to bottom right, #5409a0, #420442);
+    background-image: linear-gradient(to bottom right, #3a2a4b, #370768);
     width: 100%;
     display: flex;
     flex-direction: row;
