@@ -1285,15 +1285,16 @@ noscript{
 
 /*blog section starts*/
 /* Style for the container of the blog card */
-.blog-section-container{
-    padding-top: 150px ;
+.blog-section-container {
+    padding-top: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
-.blog-div{
-    width: 100;
+
+.blog-div {
+    width: 100%; /* Added unit */
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -1302,38 +1303,43 @@ noscript{
     gap: 5px;
     padding: 0 5px;
 }
-.blog-section-div{
+
+.blog-section-div {
     width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.blogs-heading{
+
+.blogs-heading {
     width: 100%;
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.blogs-heading-article{
-    font-size:3rem;
+
+.blogs-heading-article {
+    font-size: 3rem;
     font-family: fira code;
     font-weight: 500;
-    background-image: -webkit-gradient(linear,left top,right top,var(--static-heading-gradient-blue),var(--static-heading-gradient-pink));
-    background-image: -webkit-linear-gradient(left,var(--static-heading-gradient-blue),var(--static-heading-gradient-pink));
-    background-image: linear-gradient(90deg,var(--static-heading-gradient-blue),var(--static-heading-gradient-pink));
+    background-image: -webkit-gradient(linear, left top, right top, var(--static-heading-gradient-blue), var(--static-heading-gradient-pink));
+    background-image: -webkit-linear-gradient(left, var(--static-heading-gradient-blue), var(--static-heading-gradient-pink));
+    background-image: linear-gradient(90deg, var(--static-heading-gradient-blue), var(--static-heading-gradient-pink));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.blogsHeadingP{
+
+.blogsHeadingP {
     width: 300px;
     height: 1px;
-    background-image: -webkit-gradient(linear,left top,right top,var(--static-heading-gradient-blue),var(--static-heading-gradient-pink));
-    background-image: -webkit-linear-gradient(left,var(--static-heading-gradient-blue),var(--static-heading-gradient-pink));
-    background-image: linear-gradient(90deg,var(--static-heading-gradient-blue),var(--static-heading-gradient-pink));
+    background-image: -webkit-gradient(linear, left top, right top, var(--static-heading-gradient-blue), var(--static-heading-gradient-pink));
+    background-image: -webkit-linear-gradient(left, var(--static-heading-gradient-blue), var(--static-heading-gradient-pink));
+    background-image: linear-gradient(90deg, var(--static-heading-gradient-blue), var(--static-heading-gradient-pink));
 }
-.blog-boxes-div{
+
+.blog-boxes-div {
     width: 100%;
     height: fit-content;
     display: flex;
@@ -1343,12 +1349,14 @@ noscript{
     gap: 50px;
     padding: 50px;
 }
-.blog-box-wrapper{
+
+.blog-box-wrapper {
     width: 100%;
 }
-.blog-card{
+
+.blog-card {
     background-image: linear-gradient(to bottom right, #5409a0, #420442);
-    width: 100%;    
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -1358,27 +1366,28 @@ noscript{
     border: 1px solid var(--tech-stack-box-border-color);
     overflow: hidden;
     height: auto;
-    border-radius: 8px 8px 0 0; /* Rounded corners for the top */
-    object-fit: cover; /* Maintain aspect ratio */
+    border-radius: 8px 8px 0 0;
+    /* Rounded corners for the top */
+    object-fit: cover;
+    /* Maintain aspect ratio */
     border: 2px solid #8000ff;
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
-    
 }
 
-
-.blogHeading{
+.blogHeading {
     color: var(--color-white);
-    font-size:2rem;
+    font-size: 2rem;
     font-weight: 700;
 }
-.blogDescription{
+
+.blogDescription {
     color: gray;
     font-size: 1.7rem;
     font-weight: 400;
 }
+
 .blog-card a {
     display: inline-block;
     color: #007bff;
