@@ -1355,7 +1355,7 @@ noscript{
 }
 
 .blog-card {
-    background-image: linear-gradient(to bottom right, #3a2a4b, #370768);
+    background-image: linear-gradient(to bottom right, var(--tech-stack-box-first-color),var(--tech-stack-box-second-color));
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -1399,7 +1399,36 @@ noscript{
 
 
 /*blog section ends*/
+#backtotopbutton{
+    
+    position: fixed;
+    right: 10px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none; 
+    width:3rem;
+    height:15rem;
+    z-index: 101;
+    text-align: center;
+    transition: all .4s;
+    background-color: transparent;
+    display: none;
+}
+#backtotopbutton article{
 
+    font-size: 1.5rem;
+    color: var(--color-white);
+    font-weight: 400;
+    /* width: 200px; */
+    /* transform: rotate(90deg); */
+     
+    writing-mode:vertical-rl;
+     font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+     mix-blend-mode: difference;
+}
 #backtotopbutton:hover{
     transform: translate(0px,-20px);
     text-decoration: line-through var(--color-white);
@@ -1420,8 +1449,8 @@ footer{
     height: 400px;
     background-color: #0b0b0b;
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
+   
+    justify-content: flex-end;
     z-index: 1;
 }
 .footer-blob{
@@ -2039,4 +2068,7 @@ transition-duration: 1s;
 }
 .project-image{
     width: 80%;
+}
+.dev-link{
+    color: red;
 }
